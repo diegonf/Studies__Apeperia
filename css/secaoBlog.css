@@ -1,0 +1,76 @@
+.secaoBlog {
+  text-align: center;
+}
+
+.listaDeArtigos {
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+
+.listaDeArtigos-item {
+  display: none;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.listaDeArtigos-item:first-child{
+  display: inline-block;
+}
+
+.listaDeArtigos-item:target {
+  display: inline-block;
+}
+
+.listaDeArtigos-artigo {
+  display: inline-block;
+  padding-bottom: 2em;
+  text-align: left;
+  white-space: normal;
+}      
+
+.listaDeArtigos-artigo-img {
+  display: block;
+  width: 100%;
+}
+
+.listaDeArtigos-artigo-titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  margin: .7em 0;
+}
+
+.listaDeArtigos-artigo-link {
+  color: #EB5757;
+  font-weight: bold;
+}
+
+.listaDeArtigos-slider {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.listaDeArtigos-slider li {
+  display: inline-block;
+}
+
+.listaDeArtigos-slider-item {
+  background-color: #d4d4d4;
+  border: 0;
+  border-radius: 50%;
+  display: inline-block;
+  height: 40px;
+  margin: 0 .5em;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 40px;
+}
+
+.listaDeArtigos-slider-item:hover,
+.listaDeArtigos-slider-item:focus {
+  background-color: #a5a5a5;
+  outline: 0;
+}
+
+

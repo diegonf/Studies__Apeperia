@@ -1,0 +1,119 @@
+/* Cabeçalho */
+.cabecalho {
+  border-bottom: 1px solid #103d4a;
+  left: 50%;
+  padding-bottom: .5em;
+  position: absolute;
+  text-align: center;
+  top: -2.5em;
+  transform: translate(-50%);
+  width: 100%;
+}
+
+.cabecalho-logo {
+  margin-bottom: .2em;
+}
+
+.cabecalho-logo-img {
+  display: block;
+  margin: 0 auto;
+  transition: filter .3s;
+}
+
+.cabecalho-logo-img:hover,
+.cabecalho-logo-img:focus {
+  filter: brightness(1.2);
+}
+
+.cabecalho-nav {
+  text-align: center;
+}
+
+.cabecalho-nav-item {
+  display: inline-block;
+  font-size: .95em;
+  line-height: 2;
+  margin: 0 .5em;
+}
+
+.cabecalho-nav-item a {
+  color: #fff;
+  font-family: 'Open Sans', serif;
+  text-decoration: none;
+}
+
+.cabecalho-nav-item a:hover,
+.cabecalho-nav-item a:focus {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .cabecalho {
+    border-bottom: 0;
+    padding-bottom: 0
+  }
+
+  .cabecalho-logo {
+    float: left;
+  }
+
+  .cabecalho-nav {
+    float: right;
+    margin-top: 1em;
+  }
+}
+
+/* Seção Destaque */
+.secaoDestaque {
+  background-color: #00161c;
+  background-size: cover;
+  color: #fff;
+  padding: 11.5em 2em 3em 2em;
+  text-align: center;
+}
+
+.secaoDestaque-titulo {
+  font-family: 'Montserrat', serif;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+.secaoDestaque-texto {
+  font-size: 1.25em;
+  font-weight: normal;
+  margin: 0 auto 2em auto;
+  max-width: 600px;
+}
+
+.secaoDestaque-cta {
+  background-color: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  line-height: 2.5;
+  max-width: 300px;
+  margin: 0 auto;
+  text-decoration: none;
+  transition: .2s ease-in;
+  width: 100%;
+}
+
+.secaoDestaque-cta:hover,
+.secaoDestaque-cta:focus {
+  background: #fff;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .secaoDestaque {
+    background-image: url(../img/bg-intro.jpg);
+    padding: 10em 2em 3em 2em;
+  }
+
+  .secaoDestaque-titulo {
+    font-size: 5vw
+  }
+}
