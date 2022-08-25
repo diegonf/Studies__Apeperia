@@ -6,7 +6,7 @@
 * Instituição: [Alura](https://www.alura.com.br)
 
 ## Descrição do projeto
-O Projeto Apeperia foi desenvolvido no Layouts Responsivos: trabalhando com layouts mobile!, da Formação Front-End da Alura.
+O Projeto Apeperia foi desenvolvido no curso Layouts Responsivos: trabalhando com layouts mobile!, da Formação Front-End da Alura.
 O objetivo desse projeto foi o aprofundamento do conhecimento em CSS para estilização de páginas responsivas, focando no layout mobile.
 O projeto Figma foi utilizado como base para o desenvolvimento da página, mas durante o curso algumas alterações foram realizadas para deixar a página mais completa.
 
