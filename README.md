@@ -1,6 +1,6 @@
 ## <p align="center">![logo da Apeperia](./img/logo.svg)<br>Apeperia</p>
 
-* Projeto: https://diegonf.github.io/Studies__Apeperia/
+* Projeto: https://diegonf.github.io/Studies__FrontEnd__Apeperia/
 * Curso: Layouts Responsivos: trabalhando com layouts mobile!
 * Figma: https://www.figma.com/file/FidBn9f7BoBCoEs19EzbUD/Apeperia-Mobile-First
 * Instituição: [Alura](https://www.alura.com.br)
